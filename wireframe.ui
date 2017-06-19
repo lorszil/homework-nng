@@ -1,0 +1,56 @@
+<LAYER layer_wireframe CLASS="fullscreen">
+    <SPRITE spr_bg CLASS="full">
+        <TABLE tbl_main CLASS="full main_table">
+            <DIV lft_table CLASS="full left_col">
+                <SPRITE spd_mtr CLASS="speedometer">
+                    <SPEEDOMETER/>
+                </SPRITE>
+                <TABLE tbl_data CLASS="full data_table">
+                    <DIV spd_lmt CLASS="data">
+                        <TEXT CLASS="datatext" TEXT="Speedlimit:"/>
+                        <TEXT CLASS="datadetails" TEXT="60 kph"/>
+                    </DIV>
+                    <DIV rt_lngth CLASS="data">
+                        <TEXT CLASS="datatext" TEXT="Route Length:"/>
+                        <TEXT CLASS="datadetails" TEXT="78 km"/>
+                    </DIV>
+                    <DIV t_data CLASS="data">
+                        <TEXT CLASS="datatext" TEXT="ETA:"/>
+                        <TEXT CLASS="datadetails" TEXT="18:08"/>
+                    </DIV>
+                    <DIV crrnt_tm CLASS="data">
+                        <TEXT CLASS="datatext" TEXT="Current Time:"/>
+                        <TEXT CLASS="datadetails" TEXT="17:32"/>
+                    </DIV>
+                </TABLE>
+                <BUTTON btn_back CLASS="buttonback">
+                    <TEXT CLASS="buttonbacktext" TEXT="Back"/>
+                </BUTTON>
+            </DIV>
+            <DIV rght_table CLASS="full right_col">
+                <DIV dstnc_text CLASS="arrowicon">
+                    <SPRITE CLASS="icon" IMAGE="arrow_icon.png"/>
+                    <TEXT CLASS="distancetext" TEXT="70 m"/>
+                </DIV>
+                <DIV strtnm_next CLASS="datatext">
+                    <TEXT CLASS="full nextstreetname" TEXT="Next Street Name"/>
+                </DIV>
+                <SPRITE mps CLASS="maps">
+                    <MAPS/>
+                </SPRITE>
+                <BUTTON btn_low CLASS="mapsbutton">
+                    <TEXT CLASS="full buttontext1" TEXT="low"/>
+                </BUTTON>
+                <BUTTON btn_mid CLASS="mapsbutton">
+                    <TEXT CLASS="full buttontext2" TEXT="mid"/>
+                </BUTTON>
+                <BUTTON btn_high CLASS="mapsbutton">
+                    <TEXT CLASS="full buttontext3" TEXT="high"/>
+                </BUTTON>
+                <DIV strtnm_current CLASS="datatext">
+                    <TEXT CLASS="full currentstreetname" TEXT="Current Street Name"/>
+                </DIV>
+            </DIV>
+        </TABLE>
+    </SPRITE>
+</LAYER>

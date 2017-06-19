@@ -1,0 +1,161 @@
+.fullscreen {
+	LEFT: 0;
+	TOP: 0;
+	WIDTH: SCREEN_WIDTH;
+	HEIGHT: SCREEN_HEIGHT;
+    Z-INDEX: 0;
+}
+
+.full {
+	LEFT: 0;
+	TOP: 0;
+	WIDTH: 100%;
+	HEIGHT: 100%;
+    Z-INDEX: 0;
+}
+
+.main_table {
+	TOP: 20%;
+	HEIGHT:60%;
+	ROW: 1;
+	COL: 2;
+	CELL_W: (50%, 50%);
+}
+
+.left_col {
+    TOP: 10%;
+    LEFT: 0;
+    WIDTH: 50%;
+    HEIGHT: 80%
+    ROW: 4;
+    COL: 2;
+    CELL_W: 70%, 30%;
+    Z-INDEX: 10;
+}
+
+.right_col {
+    TOP: 0;
+    LEFT: 50%;
+    WIDTH: 50%;
+    HEIGHT: 100%
+    ROW: 3;
+    COL: 1;
+    CELL_W: 100%;
+    CELL_H: 10%, 80%, 10%;
+    Z-INDEX: 10;
+}
+
+.speedometer {
+    HEIGHT: 40%;
+    WIDTH: 40%;
+    IMAGE_FLEXIBLE: true;
+    IMAGE_ALIGN: CENTER;
+    IMAGE_VALIGN: CENTER;
+}
+
+.data_table{
+    TOP: 20%;
+    HEIGHT:60%;
+    ROW: 4;
+    COL: 2;
+    CELL_W: (60%, 40%);
+    Z-INDEX: 20;
+}
+
+.datatext{
+    HEIGHT: 15%;
+	ALIGN: ”LEFT”;
+	VALIGN: ”LEFT”;
+	Z-INDEX: 20;
+}
+
+.datadetails{
+    HEIGHT: 15%;
+    ALIGN: ”RIGHT”;
+    VALIGN: ”RIGHT”;
+    Z-INDEX: 20;
+}
+
+.buttonback{
+    HEIGHT: 10%;
+    LEFT: 0;
+    TOP: 90%;
+	IMAGE_ALIGN: ”CENTER”;
+	IMAGE_VALIGN: ”CENTER”;
+	Z-INDEX: 30;
+}
+
+.buttonbacktext{
+    HEIGHT: 25%;
+    ALIGN: ”CENTER”;
+    VALIGN: ”CENTER”;
+    Z-INDEX: 30;
+}
+
+.icon{
+    HEIGHT: 10%;
+	IMAGE_ALIGN: ”LEFT”;
+	IMAGE_VALIGN: ”LEFT”;
+	Z-INDEX: 20;
+}
+
+.distancetext{
+    TOP: 2%;
+    HEIGHT: 10%;
+    ALIGN: ”left”;
+    VALIGN: ”left”;
+    Z-INDEX: 20;
+}
+
+.datatext{
+    HEIGHT: 10%;
+    ALIGN: ”CENTER”;
+    VALIGN: ”CENTER”;
+    Z-INDEX: 20;
+}
+
+.nextstreetname{
+    TOP: 2%;
+}
+
+.currentstreetname{
+    TOP: 92%;
+}
+
+.maps{
+    TOP: 10%;
+    LEFT: 50%;
+    WIDTH: 50%;
+    HEIGHT: 80%;
+    Z-INDEX: 5;
+    IMAGE_FLEXIBLE: true;
+}
+
+.mapsbutton{
+    LEFT: 100%;
+    WIDTH: 10%;
+    HEIGHT: 10%;
+    Z-INDEX: 50;
+    IMAGE_FLEXIBLE: true;
+}
+
+.buttontext1{
+    TOP: 40%;
+    ALIGN: ”CENTER”;
+    VALIGN: ”CENTER”;
+    Z-INDEX: 50;
+}
+
+.buttontext1{
+    TOP: 50%;
+    ALIGN: ”CENTER”;
+    VALIGN: ”CENTER”;
+    Z-INDEX: 50;
+}
+
+.buttontext1{
+    TOP: 60%;
+    ALIGN: ”CENTER”;
+    VALIGN: ”CENTER”;
+    Z-INDEX: 50;
+}
